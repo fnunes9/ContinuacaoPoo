@@ -12,6 +12,11 @@ package com.mycompany.continuacaopoo;
 public class ContinuacaoPoo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Time tempo=new Time(10,20,30);
+        
+    }
+    public void MostraHora(Time tempo){
+        int hora= 
+        
     }
 }
