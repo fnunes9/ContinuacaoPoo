@@ -9,7 +9,7 @@ package com.mycompany.continuacaopoo;
  * @author fernanda.nunes
  */
 public class MetodosHora {
-    public static boolean VerificaHora(int hora,int minuto,int segundo){       
-        return hora<=24 && hora>=0  && minuto<60 && minuto>=0 && segundo <60 && segundo>=0;
+    public static boolean VerificaHorario(Time tempo){       
+        return tempo.GetHora()<=24 && tempo.GetHora()>=0  && tempo.GetMinuto()<60 && tempo.GetMinuto()>=0 && tempo.GetSegundo()<60 && tempo.GetSegundo()>=0;
     }
 }

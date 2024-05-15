@@ -9,29 +9,45 @@ package com.mycompany.continuacaopoo;
  * @author fernanda.nunes
  */
 public class Time {
+
     int hora, minuto, segundo;
-    
-    public Time(int hora, int minuto, int segundo){
-        this.hora=hora;
-        this.minuto=minuto;
-        this.segundo=segundo;
+
+    public Time() {
+
     }
-    public int GetHora(){
+
+    public void SetTime(int hora, int minuto, int segundo) {
+        this.hora = hora;
+        this.minuto = minuto;
+        this.segundo = segundo;
+    }
+
+    @Override
+    public String toString() {
+        return "Hora: " + hora + " Minuto: " + minuto + " Segundo: " + segundo;
+    }
+
+    public int GetHora() {
         return hora;
     }
-    public void SetHora(NovoHorario){
+
+    public int SetHora(int NovoHorario) {
         return NovoHorario;
     }
-    public int GetMinuto(){
+
+    public int GetMinuto() {
         return minuto;
     }
-    public void SetMinuto(NovoMinuto){
+
+    public int SetMinuto(int NovoMinuto) {
         return NovoMinuto;
     }
-    public int GetSegundo(){
+
+    public int GetSegundo() {
         return segundo;
     }
-    public void SetSegundo(NovoSegundo){
+
+    public int SetSegundo(int NovoSegundo) {
         return NovoSegundo;
     }
 }
