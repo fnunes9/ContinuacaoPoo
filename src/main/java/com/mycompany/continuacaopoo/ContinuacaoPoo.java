@@ -12,11 +12,20 @@ package com.mycompany.continuacaopoo;
 public class ContinuacaoPoo {
 
     public static void main(String[] args) {
-        Time tempo=new Time(10,20,30);
+        //Time tempo=new Time(10,20,30);
+        
+        boolean teste = MetodosHora.VerificaHora(23, 0,0);
+        if(teste == false){
+            System.out.println("Digite um formato válido: 0-23 / 0-59 / 0-59");
+        }else{
+            System.out.println("Hora válida");
+        }
         
     }
     public void MostraHora(Time tempo){
-        int hora= 
+        // teste=MetodosHora.VerificaHora(0, 0, 0)
+      // if(temp.){
+       //}
         
     }
 }
