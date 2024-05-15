@@ -24,7 +24,7 @@ public class Time {
 
     @Override
     public String toString() {
-        return "Hora: " + hora + " Minuto: " + minuto + " Segundo: " + segundo;
+        return hora + "h " + minuto+"min " +  segundo+"s";
     }
 
     public int GetHora() {

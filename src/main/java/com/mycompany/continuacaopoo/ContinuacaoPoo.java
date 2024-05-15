@@ -19,12 +19,13 @@ public class ContinuacaoPoo {
 
     public static  void MostraHorario(Time tempo) {
         boolean horarioCorreto = MetodosHora.VerificaHorario(tempo);
+        String horario = tempo.toString();
         if(horarioCorreto== false)
         {
                 System.out.println("Digite um formato válido: 0-23 / 0-59 / 0-59");
         } else
         {
-            System.out.println("Hora válida");
+            System.out.println(horario);
         }
     }
 }
